@@ -3,7 +3,7 @@
     server{<br>
 		listen  80;<br>
 		server_name  www.xuecheng.com;//服务访问路径<br>
-		ssi on;//开启ssi<br>
+		ssi on;//开启ssi(服务端包含技术)<br>
 		ssi_silent_errors on;<br>
 		location / {<br>
 			alias  前端静态页面的绝对路径;<br>
